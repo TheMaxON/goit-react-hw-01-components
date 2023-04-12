@@ -1,0 +1,25 @@
+.item {
+  background-color: #160814;
+  border: 1px solid rgb(160 160 160 / 28%);
+  border-radius: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: white;
+  padding: 10px;
+}
+
+.offlineStatus {
+  background-color: red;
+  width: 4px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.onlineStatus {
+  width: 4px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: green;
+}
