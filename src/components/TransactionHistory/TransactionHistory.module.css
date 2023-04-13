@@ -1,3 +1,25 @@
 .transaction-history {
   width: 500px;
+  margin: auto;
+  background-color: #c8ead1;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.transaction-head th {
+  font-size: 20px;
+  padding: 7px 10px;
+  background-color: #397d54;
+  border-radius: 4px;
+  color: white;
+}
+
+.transaction-body td {
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+}
+
+.transaction-body tr:nth-child(even) {
+  background-color: white;
 }
